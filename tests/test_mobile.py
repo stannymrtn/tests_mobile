@@ -33,5 +33,5 @@ def test_open_first_article():
         results.should(have.size_greater_than(0))
         results.first.should(have.text('Python'))
 
-    with allure.step('Click the first article.'):
+    with step('Click the first article.'):
         browser.all((AppiumBy.ID, 'org.wikipedia.alpha:id/page_list_item_title')).first.click()
