@@ -21,7 +21,7 @@ def mobile_management():
         "app": "bs://sample.app",
 
         'bstack:options': {
-            "projectName": "First Python project",
+            "projectName": "Python project",
             "buildName": "browserstack-build-1",
             "sessionName": "BStack first_test",
 
