@@ -12,7 +12,7 @@ from appium import webdriver
 def mobile_management():
     load_dotenv()
     login = os.getenv('USERNAME')
-    access_key = os.getenv('ACCESSKEY')
+    access_key = os.getenv('ACCESS_KEY')
     options = UiAutomator2Options().load_capabilities({
         "platformName": "android",
         "platformVersion": "9.0",
