@@ -1,5 +1,6 @@
 import pytest
 from dotenv import load_dotenv
+
 from utils import attach
 from appium.options.android import UiAutomator2Options
 from selene import browser
