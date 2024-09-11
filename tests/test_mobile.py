@@ -34,4 +34,4 @@ def test_open_first_article():
         results.first.should(have.text('Python'))
 
     with step('Click the first article.'):
-        browser.all((AppiumBy.ID, 'org.wikipedia.alpha:id/page_list_item_title')).first.click()
+        browser.all((AppiumBy.ID, 'org.wikipedia.alpha:id/page_list_item_title')).second.click()
